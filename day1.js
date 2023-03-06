@@ -51,3 +51,23 @@ console.log(sentence.indexOf('because'))
 
 //Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
 console.log(sentence.lastIndexOf('because'))
+
+//Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+console.log(sentence.search('because'))
+
+// Use startsWith() method with the string 30 Days Of JavaScript and make the result true
+console.log(challenge.startsWith('30'))
+
+// Use endsWith() method with the string 30 Days Of JavaScript and make the result true 
+console.log(challenge.endsWith('JavaScript'))
+
+// Use match() method to find all the a’s in 30 Days Of JavaScript 
+console.log(challenge.match('a'))
+
+// Use concat() and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+let string = '30 Days of' 
+console.log(string.concat(' JavaScript'))
+
+// Use repeat() method to print 30 Days Of JavaScript 2 times
+console.log(challenge.repeat('30 Days of JavaScript'))
+
